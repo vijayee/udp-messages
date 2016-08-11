@@ -1,0 +1,23 @@
+{
+  "name": "udp-messenger",
+  "version": "0.0.1",
+  "description": "Send messages over udp in small chunks",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "udp",
+    "messages",
+    "protocol-buffers",
+    "dgram"
+  ],
+  "author": "Vijayee Kulkaa",
+  "license": "ISC",
+  "dependencies": {
+    "block-stream2": "^1.1.0",
+    "protocol-buffers": "^3.1.6",
+    "streamifier": "^0.1.1",
+    "through2": "^2.0.1"
+  }
+}

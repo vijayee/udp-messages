@@ -1,0 +1,6 @@
+message msg{
+    required bytes msgId = 1;
+    required int64 index = 2;
+    required int64 length = 3;
+    optional bytes payload = 4;
+}
