@@ -1,6 +1,8 @@
 'use strict'
 const fs = require('fs')
-const msgproto = fs.readFileSync('./src/message.proto')
+const path = require('path')
+const file = path.join(__dirname, 'message.proto')
+const msgproto = fs.readFileSync(file)
 const protobuf = require('protocol-buffers')
 const pb = protobuf(msgproto)
 const crypto = require('crypto')
